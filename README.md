@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+# 🚀 Cheekati Vanshitha — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! ✨  
+This website showcases my journey as a developer, including my projects, technical skills, experience, and interests.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 About Me
 
-## Expanding the ESLint configuration
+Hi! I’m Cheekati Vanshitha, a passionate and creative software developer pursuing B.Tech in Computer Science at Lovely Professional University.  
+I love building clean, user-focused web applications and solving real-world problems through code.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 💻 Full-stack web development enthusiast
+- 🌱 Constant learner exploring AI, data science, and cloud computing
+- 🎨 Enjoys painting and chess
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 💼 Featured Projects
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Here are some of the projects highlighted on my portfolio:
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **Sales Management Dashboard**: A Laravel-based system to manage sales data, generate analytics, and export reports.  
+- **NGO Website for Prema Ananda Spiritual Society**: Developed using React and also with a PHP-HTML version, showcasing flexibility and multi-tech stack proficiency.  
+- **Student Management System**: Built in C++ for managing student records, grades, and attendance.  
+- **University Management System**: Full-stack system using HTML, CSS, JavaScript, Node.js, MongoDB, and SQL.
+
+👉 Explore detailed project case studies and live demos on the website.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, JavaScript (ES6+), TypeScript, HTML, CSS, Bootstrap
+- **Backend**: Node.js, Laravel, PHP
+- **Database**: MySQL, MongoDB
+- **Other**: Git, GitHub, Figma, Cloud tools
+
+---
+
+## 🌐 Website
+
+🔗 [Visit my portfolio website here](https://port-six-zeta.vercel.app/)  
+
+---
+
+## 📝 Installation & Setup (If code included)
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/portfolio-website.git
+
+# Navigate into the project directory
+cd portfolio-website
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
